@@ -1,0 +1,161 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Competition {
+  id        Int        @id @default(autoincrement())
+  name      String
+  tier      Tier       @unique
+  matches   Match[]
+  standings Standing[]
+  Team      Team[]
+}
+
+model Match {
+  id            Int         @id @default(autoincrement())
+  competition   Competition @relation(fields: [competitionId], references: [id])
+  competitionId Int
+  stadium       Stadium     @relation(fields: [stadiumId], references: [id])
+  stadiumId     Int
+  homeTeam      Team        @relation(name: "homeMatch", fields: [homeId], references: [id])
+  homeId        Int
+  awayTeam      Team        @relation(name: "awayMatch", fields: [awayId], references: [id])
+  awayId        Int
+  season        Int
+  round         String
+  status        Status
+  dateTime      DateTime
+  homeScore     Int         @default(0)
+  awayScore     Int         @default(0)
+  note          String      @default("")
+}
+
+model Player {
+  id              Int             @id @default(autoincrement())
+  team            Team            @relation(fields: [teamId], references: [id])
+  teamId          Int
+  shirtNumber     Int             @default(0)
+  position        Position
+  positionAcronym PositionAcronym
+  fullName        String          @default("")
+  dateOfBirth     DateTime
+  height          Int             @default(0)
+  weight          Int             @default(0)
+  goals           Int             @default(0)
+  penalty         Int             @default(0)
+  yellowCards     Int             @default(0)
+  redCards        Int             @default(0)
+}
+
+model Stadium {
+  id       Int    @id @default(autoincrement())
+  name     String @default("")
+  province String @default("")
+
+  Team  Team[]
+  Match Match[]
+}
+
+model Standing {
+  id              Int            @id @default(autoincrement())
+  competition     Competition    @relation(fields: [competitionId], references: [id])
+  competitionId   Int
+  team            Team           @relation(fields: [teamId], references: [id])
+  teamId          Int
+  season          Int            @default(0)
+  ranking         Int            @default(0)
+  rankingStatus   RankingStatus?
+  played          Int            @default(0)
+  points          Int            @default(0)
+  won             Int            @default(0)
+  drawn           Int            @default(0)
+  lost            Int            @default(0)
+  goals           Int            @default(0)
+  goalsAgainst    Int            @default(0)
+  goalsDifference Int            @default(0)
+  yellowCards     Int            @default(0)
+  redCards        Int            @default(0)
+  note            String
+}
+
+model Team {
+  id            Int          @id @default(autoincrement())
+  competition   Competition? @relation(fields: [competitionId], references: [id])
+  competitionId Int?
+  stadium       Stadium?     @relation(fields: [stadiumId], references: [id])
+  stadiumId     Int?
+  name          String       @default("")
+  fullName      String       @default("")
+  code          String       @default("")
+  chairman      String       @default("")
+  manager       String       @default("")
+  founded       DateTime
+  dissolved     DateTime
+  active        Boolean      @default(true)
+  HomeMatches   Match[]      @relation(name: "homeMatch")
+  AwayMatches   Match[]      @relation(name: "awayMatch")
+  Player        Player[]
+  Standing      Standing[]
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  key   String
+}
+
+enum Tier {
+  TIER_CUP
+  TIER_ONE
+  TIER_TWO
+  TIER_THREE
+}
+
+enum Status {
+  CANCELLED
+  FINISHED
+  LIVE
+  SCHEDULED
+  POSTPONED
+}
+
+enum Position {
+  GOALKEEPER
+  CENTER_BACK
+  FULL_BACK
+  SWEEPER
+  WING_BACK
+  CENTRAL_MIDFIELDER
+  DEFENSIVE_MIDFIELDER
+  ATTACKING_MIDFIELDER
+  WIDE_MIDFIELDER
+  SECOND_STRIKER
+  CENTRE_FORWARD
+  WINGER
+}
+
+enum PositionAcronym {
+  GK
+  CB
+  FB
+  SW
+  WB
+  CM
+  DM
+  AM
+  WM
+  SS
+  CF
+  WG
+}
+
+enum RankingStatus {
+  WINNER
+  RUNNER_UP
+  RELEGATION
+}
