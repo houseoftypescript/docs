@@ -1,0 +1,39 @@
+extend type Query {
+  positions: [Position]
+  position(id: String!): Position
+}
+
+type Position {
+  id: PositionId
+  name: PositionName
+}
+
+enum PositionId {
+  GK
+  CB
+  FB
+  SW
+  WB
+  CM
+  DM
+  AM
+  WM
+  SS
+  CF
+  WG
+}
+
+enum PositionName {
+  GOALKEEPER
+  CENTER_BACK
+  FULL_BACK
+  SWEEPER
+  WING_BACK
+  CENTRAL_MIDFIELDER
+  DEFENSIVE_MIDFIELDER
+  ATTACKING_MIDFIELDER
+  WIDE_MIDFIELDER
+  SECOND_STRIKER
+  CENTRE_FORWARD
+  WINGER
+}

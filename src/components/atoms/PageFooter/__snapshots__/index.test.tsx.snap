@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageFooter render default 1`] = `
+<div>
+  <footer
+    class="border-t"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg py-8 css-1oqqzyl-MuiContainer-root"
+    />
+  </footer>
+</div>
+`;

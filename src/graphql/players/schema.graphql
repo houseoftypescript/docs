@@ -1,0 +1,21 @@
+scalar GraphQLDateTime
+
+extend type Query {
+  players: [Player]
+  player(id: String!): Player
+}
+
+type Player {
+  id: String
+  teamId: String
+  positionId: PositionId
+  shirtNumber: Int
+  fullName: String
+  dateOfBirth: GraphQLDateTime
+  height: Int
+  weight: Int
+  goals: Int
+  penalty: Int
+  yellowCards: Int
+  redCards: Int
+}

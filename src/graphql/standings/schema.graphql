@@ -1,0 +1,29 @@
+extend type Query {
+  standings(season: Int, teamId: String, tier: Tier): [Standing]
+  standing(id: String!): Standing
+}
+
+type Standing {
+  id: String
+  competitionId: String
+  teamId: String
+  season: Int
+  ranking: Int
+  rankingStatus: RankingStatus
+  played: Int
+  points: Int
+  won: Int
+  drawn: Int
+  lost: Int
+  goals: Int
+  goalsAgainst: Int
+  goalsDifference: Int
+  yellowCards: Int
+  redCards: Int
+}
+
+enum RankingStatus {
+  WINNER
+  RUNNER_UP
+  RELEGATION
+}

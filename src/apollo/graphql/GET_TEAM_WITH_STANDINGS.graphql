@@ -1,0 +1,26 @@
+query GET_TEAM_WITH_STANDINGS($teamId: String!) {
+  team(id: $teamId) {
+    id
+    name
+    fullName
+    stadiumId
+    chairman
+    manager
+    founded
+    active
+    competitionId
+    standings {
+      id
+      ranking
+      teamId
+      played
+      points
+      won
+      drawn
+      lost
+      goals
+      goalsAgainst
+      goalsDifference
+    }
+  }
+}

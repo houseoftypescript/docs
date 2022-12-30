@@ -1,0 +1,14 @@
+query GET_STANDINGS($season: Int, $teamId: String, $tier: Tier) {
+  standings(season: $season, teamId: $teamId, tier: $tier) {
+    ranking
+    teamId
+    played
+    points
+    won
+    drawn
+    lost
+    goals
+    goalsAgainst
+    goalsDifference
+  }
+}
