@@ -16,7 +16,7 @@
     "@emotion/react": "11.10.5",
     "@emotion/styled": "11.10.5",
     "@fontsource/roboto": "4.5.8",
-    "@graphql-tools/merge": "8.3.14",
+    "@graphql-tools/merge": "8.3.15",
     "@mui/icons-material": "5.11.0",
     "@mui/material": "5.11.4",
     "@next/font": "13.1.1",
