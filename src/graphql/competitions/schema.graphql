@@ -1,0 +1,16 @@
+extend type Query {
+  competitions: [Competition]
+  competition(id: String!): Competition
+}
+
+type Competition {
+  id: Tier
+  name: String
+}
+
+enum Tier {
+  TIER_ONE
+  TIER_TWO
+  TIER_THREE
+  TIER_CUP
+}

@@ -1,0 +1,26 @@
+query GET_MATCHES(
+  $limit: Int
+  $season: Int
+  $status: Status
+  $teamId: String
+  $tier: Tier
+) {
+  matches(
+    limit: $limit
+    season: $season
+    status: $status
+    teamId: $teamId
+    tier: $tier
+  ) {
+    id
+    season
+    round
+    status
+    stadiumId
+    dateTime
+    homeId
+    homeScore
+    awayId
+    awayScore
+  }
+}

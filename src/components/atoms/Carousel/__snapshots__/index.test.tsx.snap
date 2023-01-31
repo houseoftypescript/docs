@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel render default 1`] = `
+<div>
+  <div
+    class="relative w-full overflow-hidden"
+    style="padding-bottom: 50%;"
+  >
+    <div
+      class="absolute w-full h-full bg-cover bg-center transition-all top-0 left-0"
+      style="z-index: 0; background-image: url(https://raw.githubusercontent.com/hieudoanm/cdn/master/images/vleague/intros/intro-3.png);"
+    >
+      <div
+        class="w-full h-full bg-gray-100/20"
+      />
+    </div>
+    <div
+      class="absolute w-full h-full bg-cover bg-center transition-all top-0 left-0"
+      style="z-index: 10; background-image: url(https://raw.githubusercontent.com/hieudoanm/cdn/master/images/vleague/intros/intro-2.png);"
+    >
+      <div
+        class="w-full h-full bg-gray-100/20"
+      />
+    </div>
+    <div
+      class="absolute w-full h-full bg-cover bg-center transition-all top-0 left-0"
+      style="z-index: 20; background-image: url(https://raw.githubusercontent.com/hieudoanm/cdn/master/images/vleague/intros/intro-1.png);"
+    >
+      <div
+        class="w-full h-full bg-gray-100/20"
+      />
+    </div>
+    <div
+      class="z-40 absolute left-0 top-0 bottom-0 m-auto w-8 h-16 bg-gray-900/50 hover:bg-gray-900/75 cursor-pointer text-white flex items-center justify-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-3xl css-i4bv87-MuiSvgIcon-root"
+        data-testid="ChevronLeftIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+        />
+      </svg>
+    </div>
+    <div
+      class="z-40 absolute right-0 top-0 bottom-0 m-auto w-8 h-16 bg-gray-900/50 hover:bg-gray-900/75 cursor-pointer text-white flex items-center justify-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-3xl css-i4bv87-MuiSvgIcon-root"
+        data-testid="ChevronRightIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+query GET_TEAMS($tier: Tier, $season: Int) {
+  teams(tier: $tier, season: $season) {
+    id
+    name
+    fullName
+    stadiumId
+    chairman
+    manager
+    competitionId
+  }
+}

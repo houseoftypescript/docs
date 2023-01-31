@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader render default 1`] = `
+<div>
+  <header
+    class="border-b"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg py-12 css-1oqqzyl-MuiContainer-root"
+    />
+  </header>
+</div>
+`;

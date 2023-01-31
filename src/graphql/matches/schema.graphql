@@ -1,0 +1,35 @@
+scalar GraphQLDateTime
+
+extend type Query {
+  matches(
+    limit: Int
+    season: Int
+    status: Status
+    teamId: String
+    tier: Tier
+  ): [Match]
+  match(id: String!): Match
+}
+
+type Match {
+  id: String
+  competitionId: String
+  stadiumId: String
+  homeId: String
+  awayId: String
+  season: Int
+  round: String
+  status: Status
+  dateTime: GraphQLDateTime
+  homeScore: Int
+  awayScore: Int
+  note: String
+}
+
+enum Status {
+  CANCELLED
+  FINISHED
+  LIVE
+  SCHEDULED
+  POSTPONED
+}

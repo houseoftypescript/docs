@@ -1,0 +1,21 @@
+import GET_HOME from './GET_HOME.graphql';
+import GET_MATCH from './GET_MATCH.graphql';
+import GET_MATCHES from './GET_MATCHES.graphql';
+import GET_STANDINGS from './GET_STANDINGS.graphql';
+import GET_TEAMS from './GET_TEAMS.graphql';
+import GET_TEAM_WITH_MATCHES from './GET_TEAM_WITH_MATCHES.graphql';
+import GET_TEAM_WITH_PLAYERS from './GET_TEAM_WITH_PLAYERS.graphql';
+import GET_TEAM_WITH_RESULTS from './GET_TEAM_WITH_RESULTS.graphql';
+import GET_TEAM_WITH_STANDINGS from './GET_TEAM_WITH_STANDINGS.graphql';
+
+export {
+  GET_HOME,
+  GET_MATCH,
+  GET_MATCHES,
+  GET_STANDINGS,
+  GET_TEAM_WITH_MATCHES,
+  GET_TEAM_WITH_PLAYERS,
+  GET_TEAM_WITH_RESULTS,
+  GET_TEAM_WITH_STANDINGS,
+  GET_TEAMS,
+};

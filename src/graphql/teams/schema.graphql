@@ -1,0 +1,24 @@
+scalar GraphQLDate
+
+extend type Query {
+  teams(tier: Tier, season: Int): [Team]
+  team(id: String!): Team
+}
+
+type Team {
+  id: String
+  competitionId: String
+  stadiumId: String
+  name: String
+  fullName: String
+  code: String
+  chairman: String
+  manager: String
+  founded: GraphQLDate
+  dissolved: GraphQLDate
+  active: Boolean
+  matches: [Match]
+  players: [Player]
+  results: [Match]
+  standings: [Standing]
+}

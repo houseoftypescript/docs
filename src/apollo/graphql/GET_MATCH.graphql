@@ -1,0 +1,64 @@
+query GET_MATCH($id: String!) {
+  match(id: $id) {
+    match {
+      id
+      season
+      round
+      status
+      stadium
+      date
+      time
+      homeId
+      homeTeam
+      homeScore
+      awayScore
+      awayId
+      awayTeam
+    }
+    head2head {
+      id
+      season
+      round
+      status
+      stadium
+      date
+      time
+      homeId
+      homeTeam
+      homeScore
+      awayScore
+      awayId
+      awayTeam
+    }
+    homeForm {
+      id
+      season
+      round
+      status
+      stadium
+      date
+      time
+      homeId
+      homeTeam
+      homeScore
+      awayScore
+      awayId
+      awayTeam
+    }
+    awayForm {
+      id
+      season
+      round
+      status
+      stadium
+      date
+      time
+      homeId
+      homeTeam
+      homeScore
+      awayScore
+      awayId
+      awayTeam
+    }
+  }
+}

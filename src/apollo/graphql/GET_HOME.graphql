@@ -1,0 +1,42 @@
+query GET_HOME(
+  $maxResults: Int
+  $season: Int
+  $tier: Tier
+  $status: Status
+  $limit: Int
+) {
+  videos(maxResults: $maxResults) {
+    id
+    title
+    description
+    channelId
+    channelTitle
+    publishedAt
+    thumbnail
+  }
+  standings(season: $season, tier: $tier) {
+    id
+    ranking
+    teamId
+    played
+    points
+    won
+    drawn
+    lost
+    goals
+    goalsAgainst
+    goalsDifference
+  }
+  matches(season: $season, tier: $tier, status: $status, limit: $limit) {
+    id
+    season
+    round
+    status
+    stadiumId
+    dateTime
+    homeId
+    homeScore
+    awayId
+    awayScore
+  }
+}

@@ -1,0 +1,25 @@
+query GET_TEAM_WITH_MATCHES($teamId: String!) {
+  team(id: $teamId) {
+    id
+    name
+    fullName
+    stadiumId
+    chairman
+    manager
+    founded
+    active
+    competitionId
+    matches {
+      id
+      season
+      round
+      status
+      stadiumId
+      dateTime
+      homeId
+      homeScore
+      awayId
+      awayScore
+    }
+  }
+}
