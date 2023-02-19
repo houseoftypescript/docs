@@ -12,6 +12,7 @@
   - [Development](#development)
     - [Terminal](#terminal)
     - [CLI (Command Line Interface)](#cli-command-line-interface)
+    - [Bundler](#bundler)
     - [Version Control](#version-control)
     - [IDE (Integrated Development Environment)](#ide-integrated-development-environment)
     - [Linters and Formatters](#linters-and-formatters)
@@ -26,16 +27,19 @@
         - [Components Documentation](#components-documentation)
       - [CSS in JS](#css-in-js)
       - [JS (JavaScript)](#js-javascript)
-        - [Web Framework](#web-framework)
+        - [Library](#library-1)
+          - [State Management](#state-management)
+          - [Charts](#charts)
+        - [Framework](#framework)
           - [Client-side](#client-side)
           - [Server-side](#server-side)
         - [Testing](#testing)
     - [Mobile](#mobile-1)
-      - [Framework](#framework)
-    - [Desktop](#desktop-1)
       - [Framework](#framework-1)
+    - [Desktop](#desktop-1)
+      - [Framework](#framework-2)
   - [Back-end](#back-end)
-    - [Framework](#framework-2)
+    - [Framework](#framework-3)
     - [Database](#database)
       - [Key - Value](#key---value)
       - [Wide Column](#wide-column)
@@ -44,6 +48,7 @@
       - [Graph](#graph)
       - [Search Engine](#search-engine)
       - [Multi-Model](#multi-model)
+    - [Object Relational Mapping (ORM)](#object-relational-mapping-orm)
     - [Message Brokers](#message-brokers)
     - [Authentication](#authentication)
   - [DevOps (Development and Operations)](#devops-development-and-operations)
@@ -53,17 +58,28 @@
       - [Containers](#containers)
       - [Configuration Management](#configuration-management)
       - [Container Orchestration](#container-orchestration)
+    - [Server](#server)
     - [Serverless](#serverless)
     - [SaaS (Software as a Service)](#saas-software-as-a-service)
       - [Version Control System](#version-control-system)
+      - [Diagrams](#diagrams)
       - [Authentication Service](#authentication-service)
       - [Database Service](#database-service)
       - [Mailing](#mailing)
       - [Payment](#payment)
     - [PaaS (Platform as a Service)](#paas-platform-as-a-service)
     - [IaaS (Infrastructure as a Service)](#iaas-infrastructure-as-a-service)
+    - [Solution Architecture](#solution-architecture)
+    - [Micro Frontends](#micro-frontends)
   - [Blockchain](#blockchain)
   - [AI (Artificial Intelligence)](#ai-artificial-intelligence)
+  - [Reading](#reading)
+    - [Blogs](#blogs)
+    - [Books](#books)
+    - [Cheatsheets](#cheatsheets)
+  - [Education](#education)
+    - [Courses](#courses)
+    - [Interviews](#interviews)
 
 ## OS (Operating System)
 
@@ -126,6 +142,11 @@
 
 1. [aws cli](https://aws.amazon.com/cli/)
 2. [ngrok](https://ngrok.com/)
+
+### Bundler
+
+1. [babel](https://babeljs.io/)
+2. [webpack](https://webpack.js.org/)
 
 ### Version Control
 
@@ -219,7 +240,24 @@
 
 #### JS (JavaScript)
 
-##### Web Framework
+##### Library
+
+###### State Management
+
+1. [Redux](https://redux.js.org/)
+   1. [Saga](https://redux-saga.js.org/)
+   2. [Thunk](https://www.npmjs.com/package/redux-thunk)
+
+###### Charts
+
+1. [Charts.js](https://www.chartjs.org/)
+2. [Chartist.js](https://gionkunz.github.io/chartist-js/)
+3. [D3.js](https://d3js.org/)
+4. [Google Chart](https://developers.google.com/chart)
+5. [Highcharts](https://www.highcharts.com/)
+6. [Recharts](https://recharts.org/)
+
+##### Framework
 
 ###### Client-side
 
@@ -309,6 +347,13 @@
 
 1. [FaunaDB](https://fauna.com/)
 
+### Object Relational Mapping (ORM)
+
+1. [Mongooose](https://mongoosejs.com/)
+2. [Prisma](https://www.prisma.io/)
+3. [Sequelize](https://sequelize.org/)
+4. [TypeORM](https://typeorm.io/#/)
+
 ### Message Brokers
 
 1. [RabbitMQ](https://www.rabbitmq.com/)
@@ -350,6 +395,10 @@
 
 1. [Kubernetes](https://kubernetes.io/)
 
+### Server
+
+1. [Nginx](https://www.nginx.com/)
+
 ### Serverless
 
 1. [Netlify](https://www.netlify.com/)
@@ -362,6 +411,11 @@
 1. [BitBucket](https://bitbucket.org/)
 2. [GitHub](https://github.com)
 3. [GitLab](https://about.gitlab.com/)
+
+#### Diagrams
+
+1. [Diagrams](https://www.diagrams.net/)
+2. [Sequence Diagram](https://sequencediagram.org/)
 
 #### Authentication Service
 
@@ -390,6 +444,14 @@
 
 1. [Digital Ocean](https://www.digitalocean.com/)
 
+### Solution Architecture
+
+### Micro Frontends
+
+1. [microfrontends.com](https://microfrontends.com/)
+2. [micro-frontends.org](https://micro-frontends.org/)
+3. [microservices](https://microservices.io/)
+
 ## Blockchain
 
 1. [binance](https://www.binance.com/)
@@ -406,3 +468,44 @@
 ## AI (Artificial Intelligence)
 
 1. [OpenAI](https://openai.com/)
+
+## Reading
+
+### Blogs
+
+1. [dev.to](https://dev.to/)
+2. [fireship.io](https://fireship.io/)
+3. [hacker news](https://news.ycombinator.com/)
+4. [indiehackers](https://www.indiehackers.com/)
+5. [roadmap.sh](https://roadmap.sh)
+
+### Books
+
+- [OpenStax](https://openstax.org/)
+- [PDFDrive](https://www.pdfdrive.com/)
+- [Project Gutenberg](https://www.gutenberg.org/)
+- [ZLib](https://z-lib.org/)
+
+### Cheatsheets
+
+1. [devhints.io](https://devhints.io/)
+
+## Education
+
+### Courses
+
+1. [A Cloud Guru](https://acloudguru.com/)
+2. [Baeldung](https://www.baeldung.com/)
+3. [Codecademy](https://www.codecademy.com/)
+4. [Coursera](https://www.coursera.org/)
+5. [DataCamp](https://www.datacamp.com/)
+6. [FreeCodeCamp](https://www.freecodecamp.org/)
+7. [PluralSight](https://www.pluralsight.com/)
+8. [Udacity](https://www.udacity.com/)
+9. [Udemy](https://www.udemy.com/)
+
+### Interviews
+
+1. [CodeWars](https://www.codewars.com/)
+2. [HackerRank](https://www.hackerrank.com/)
+3. [LeetCode](https://leetcode.com/)
