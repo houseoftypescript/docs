@@ -2,15 +2,21 @@
 
 - [Docs](#docs)
   - [OS (Operating System)](#os-operating-system)
-    - [Linux](#linux)
+    - [Desktop](#desktop)
+      - [Enterprise](#enterprise)
+      - [Linux](#linux)
+    - [Mobile](#mobile)
   - [Languages](#languages)
     - [Data](#data)
     - [Programming](#programming)
   - [Development](#development)
+    - [Terminal](#terminal)
+    - [CLI (Command Line Interface)](#cli-command-line-interface)
     - [Version Control](#version-control)
     - [IDE (Integrated Development Environment)](#ide-integrated-development-environment)
     - [Linters and Formatters](#linters-and-formatters)
     - [Dependency Management](#dependency-management)
+    - [Documentation](#documentation)
   - [Front-end](#front-end)
     - [Web](#web)
       - [CSS (Cascading Style Sheets)](#css-cascading-style-sheets)
@@ -24,12 +30,12 @@
           - [Client-side](#client-side)
           - [Server-side](#server-side)
         - [Testing](#testing)
-    - [Mobile](#mobile)
-      - [Mobile Framework](#mobile-framework)
-    - [Desktop](#desktop)
-      - [Desktop Framework](#desktop-framework)
+    - [Mobile](#mobile-1)
+      - [Framework](#framework)
+    - [Desktop](#desktop-1)
+      - [Framework](#framework-1)
   - [Back-end](#back-end)
-    - [Framework](#framework)
+    - [Framework](#framework-2)
     - [Database](#database)
       - [Key - Value](#key---value)
       - [Wide Column](#wide-column)
@@ -41,26 +47,49 @@
     - [Message Brokers](#message-brokers)
     - [Authentication](#authentication)
   - [DevOps (Development and Operations)](#devops-development-and-operations)
+    - [Code Quality](#code-quality)
     - [CI/CD (Continuous Integration \& Continuous Deployment)](#cicd-continuous-integration--continuous-deployment)
     - [IaC (Infrastructure as Code)](#iac-infrastructure-as-code)
       - [Containers](#containers)
       - [Configuration Management](#configuration-management)
       - [Container Orchestration](#container-orchestration)
+    - [Serverless](#serverless)
     - [SaaS (Software as a Service)](#saas-software-as-a-service)
       - [Version Control System](#version-control-system)
+      - [Authentication Service](#authentication-service)
+      - [Database Service](#database-service)
+      - [Mailing](#mailing)
+      - [Payment](#payment)
     - [PaaS (Platform as a Service)](#paas-platform-as-a-service)
     - [IaaS (Infrastructure as a Service)](#iaas-infrastructure-as-a-service)
   - [Blockchain](#blockchain)
+  - [AI (Artificial Intelligence)](#ai-artificial-intelligence)
 
 ## OS (Operating System)
 
-### Linux
+### Desktop
+
+#### Enterprise
+
+1. [macOS](https://www.apple.com/macos/)
+2. [Windows](https://www.microsoft.com/en-us/windows)
+
+#### Linux
 
 1. [Arch](https://archlinux.org/)
 2. [CentOS](https://centos.org/)
 3. [Debian](https://www.debian.org/)
-4. [Mint](https://linuxmint.com/)
-5. [Ubuntu](https://ubuntu.com/)
+4. [Elementary](https://elementary.io/)
+5. [Kali](https://www.kali.org/)
+6. [Mint](https://linuxmint.com/)
+7. [Ubuntu](https://ubuntu.com/)
+
+### Mobile
+
+1. [Android](https://www.android.com/)
+2. [iOS](https://www.apple.com/ios/)
+3. [KaiOS](https://www.kaiostech.com/)
+4. [Ubuntu Touch](https://ubuntu-touch.io/)
 
 ## Languages
 
@@ -85,6 +114,19 @@
 
 ## Development
 
+### Terminal
+
+1. [autojump](https://github.com/wting/autojump)
+2. [nvm (node version manager)](https://github.com/nvm-sh/nvm)
+3. [oh my zsh](https://ohmyz.sh/)
+   1. [auto suggestions](https://github.com/zsh-users/zsh-autosuggestions)
+   2. [history database](https://github.com/larkery/zsh-histdb)
+
+### CLI (Command Line Interface)
+
+1. [aws cli](https://aws.amazon.com/cli/)
+2. [ngrok](https://ngrok.com/)
+
 ### Version Control
 
 1. [git](https://git-scm.com/)
@@ -92,28 +134,37 @@
 
 ### IDE (Integrated Development Environment)
 
-1. Text Editor
+1. [Eclipse](https://www.eclipse.org/)
+2. Text Editor
    1. [Sublime Text](https://www.sublimetext.com/)
-2. Microsoft
+3. Microsoft
    1. [Visual Studio](https://visualstudio.microsoft.com/)
    2. [Visual Studio Code](https://code.visualstudio.com/)
-3. JetBrains
+4. JetBrains
    1. [GoLand](https://www.jetbrains.com/go/)
    2. [IntelliJ IDEA](https://www.jetbrains.com/idea/)
    3. [Pycharm](https://www.jetbrains.com/pycharm/)
    4. [WebStorm](https://www.jetbrains.com/webstorm/)
-4. Apple
+5. Apple
    1. [XCode](https://developer.apple.com/xcode/)
 
 ### Linters and Formatters
 
-- [eslint](https://eslint.org/)
-- [prettier](https://prettier.io/)
+1. [eslint](https://eslint.org/)
+2. [prettier](https://prettier.io/)
 
 ### Dependency Management
 
 1. [Renovate](https://www.mend.io/free-developer-tools/renovate/)
 2. [Snyk](https://snyk.io/)
+
+### Documentation
+
+1. [docsify](https://docsify.js.org/)
+2. [gitbook](https://www.gitbook.com/)
+3. [redocly](https://redocly.com/)
+4. [swagger](https://swagger.io/)
+5. [tsoa](https://tsoa-community.github.io/docs/)
 
 ## Front-end
 
@@ -191,14 +242,14 @@
 
 ### Mobile
 
-#### Mobile Framework
+#### Framework
 
 1. [Ionic](https://ionicframework.com/)
 2. [React Native](https://reactnative.dev/)
 
 ### Desktop
 
-#### Desktop Framework
+#### Framework
 
 [Electron](https://www.electronjs.org/)
 
@@ -206,18 +257,20 @@
 
 ### Framework
 
-1. Java
+1. GraphQL
+   1. [Apollo](https://www.apollographql.com/)
+2. Java
    1. [Spring](https://spring.io/)
       1. [Spring Boot](https://spring.io/projects/spring-boot)
-2. JavaScript - [Node.js](https://nodejs.org/en/)
+3. JavaScript - [Node.js](https://nodejs.org/en/)
    1. [express.js](https://expressjs.com/)
    2. [fastify](https://www.fastify.io/)
    3. [hapi](https://hapi.dev/)
    4. [nest.js](https://nestjs.com/)
-3. PHP
+4. PHP
    1. [CakePHP](https://cakephp.org/)
    2. [Laravel](https://laravel.com/)
-4. Python
+5. Python
    1. [Django](https://www.djangoproject.com/)
    2. [Flask](https://flask.palletsprojects.com/en/2.2.x/)
 
@@ -267,11 +320,21 @@
 
 ## DevOps (Development and Operations)
 
+### Code Quality
+
+1. Sonar
+   1. [SonarLint](https://www.sonarsource.com/products/sonarlint/)
+   2. [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+   3. [SonarCloud](https://www.sonarsource.com/products/sonarcloud/)
+
 ### CI/CD (Continuous Integration & Continuous Deployment)
 
-1. [Circle CI](https://circleci.com/)
-2. [Jenkins](https://www.jenkins.io/)
-3. [Travis CI](https://www.travis-ci.com/)
+1. [BitBucket Pipelines](https://bitbucket.org/product/features/pipelines)
+2. [Circle CI](https://circleci.com/)
+3. [GitHub Actions](https://github.com/features/actions)
+4. [GitLab CI](https://docs.gitlab.com/ee/ci/)
+5. [Jenkins](https://www.jenkins.io/)
+6. [Travis CI](https://www.travis-ci.com/)
 
 ### IaC (Infrastructure as Code)
 
@@ -287,6 +350,11 @@
 
 1. [Kubernetes](https://kubernetes.io/)
 
+### Serverless
+
+1. [Netlify](https://www.netlify.com/)
+2. [Vercel](https://vercel.com/)
+
 ### SaaS (Software as a Service)
 
 #### Version Control System
@@ -294,6 +362,24 @@
 1. [BitBucket](https://bitbucket.org/)
 2. [GitHub](https://github.com)
 3. [GitLab](https://about.gitlab.com/)
+
+#### Authentication Service
+
+1. [Auth0](https://auth0.com/)
+2. [KeyCloak](https://www.keycloak.org/)
+
+#### Database Service
+
+1. [MongoDB Atlas](https://www.mongodb.com/atlas)
+
+#### Mailing
+
+1. [Mailchimp](https://mailchimp.com/)
+
+#### Payment
+
+1. [PayPal](https://www.paypal.com/)
+2. [Stripe](https://stripe.com/)
 
 ### PaaS (Platform as a Service)
 
@@ -316,3 +402,7 @@
 8. [polkadot](https://polkadot.network/)
 9. [solana](https://solana.com/)
 10. [tron](https://tron.network/)
+
+## AI (Artificial Intelligence)
+
+1. [OpenAI](https://openai.com/)
