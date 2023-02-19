@@ -1,0 +1,21 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "Docs",
+  "main": "index.js",
+  "repository": "git@github.com:houseofmystery/data.git",
+  "author": "hieudoanm <hieumdoan@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">= 16",
+    "npm": ">= 8",
+    "yarn": ">= 1"
+  },
+  "scripts": {
+    "docsify": "docsify init ./docs"
+  },
+  "devDependencies": {
+    "docsify-cli": "4.4.4"
+  }
+}
