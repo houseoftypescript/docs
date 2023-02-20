@@ -1,14 +1,6 @@
 # Docs
 
 - [Docs](#docs)
-  - [OS (Operating System)](#os-operating-system)
-    - [Desktop](#desktop)
-      - [Enterprise](#enterprise)
-      - [Linux](#linux)
-    - [Mobile](#mobile)
-  - [Languages](#languages)
-    - [Data](#data)
-    - [Programming](#programming)
   - [Development](#development)
     - [Terminal](#terminal)
     - [CLI (Command Line Interface)](#cli-command-line-interface)
@@ -37,61 +29,6 @@
     - [Blogs](#blogs)
     - [Books](#books)
     - [Cheatsheets](#cheatsheets)
-  - [Education](#education)
-    - [Courses](#courses)
-    - [Interviews](#interviews)
-
-## OS (Operating System)
-
-### Desktop
-
-#### Enterprise
-
-1. [Apple - macOS](https://www.apple.com/macos/)
-2. [Google - ChromeOS](https://www.google.com/chromebook/chrome-os/)
-3. [Microsoft - Windows](https://www.microsoft.com/en-us/windows)
-
-#### Linux
-
-1. [Arch](https://archlinux.org/)
-2. [CentOS](https://centos.org/)
-3. [Debian](https://www.debian.org/)
-4. [Elementary](https://elementary.io/)
-5. [Kali](https://www.kali.org/)
-6. [Mint](https://linuxmint.com/)
-7. [StreamOS](https://store.steampowered.com/steamos/)
-8. [Ubuntu](https://ubuntu.com/)
-
-### Mobile
-
-1. [Android](https://www.android.com/)
-2. [iOS](https://www.apple.com/ios/)
-3. [KaiOS](https://www.kaiostech.com/)
-4. [Ubuntu Touch](https://ubuntu-touch.io/)
-
-## Languages
-
-### Data
-
-1. [GraphQL](https://graphql.org/)
-2. SQL
-
-### Programming
-
-1. Microsoft
-   1. [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
-2. Google
-   1. [Dart](https://dart.dev)
-   2. [Golang](https://go.dev/)
-3. [Java](https://www.java.com/en/)
-4. [JavaScript](https://www.javascript.com/)
-   1. [TypeScript](https://www.typescriptlang.org/)
-5. [Kotlin](https://kotlinlang.org/)
-6. [PHP](https://www.php.net/)
-7. [Python](https://www.python.org/)
-8. [R](https://www.r-project.org/)
-9. [Rust](https://www.rust-lang.org/)
-10. [Swift](https://developer.apple.com/swift/)
 
 ## Development
 
@@ -239,23 +176,3 @@
 ### Cheatsheets
 
 1. [devhints.io](https://devhints.io/)
-
-## Education
-
-### Courses
-
-1. [A Cloud Guru](https://acloudguru.com/)
-2. [Baeldung](https://www.baeldung.com/)
-3. [Codecademy](https://www.codecademy.com/)
-4. [Coursera](https://www.coursera.org/)
-5. [DataCamp](https://www.datacamp.com/)
-6. [FreeCodeCamp](https://www.freecodecamp.org/)
-7. [PluralSight](https://www.pluralsight.com/)
-8. [Udacity](https://www.udacity.com/)
-9. [Udemy](https://www.udemy.com/)
-
-### Interviews
-
-1. [CodeWars](https://www.codewars.com/)
-2. [HackerRank](https://www.hackerrank.com/)
-3. [LeetCode](https://leetcode.com/)
