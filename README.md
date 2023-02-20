@@ -56,8 +56,10 @@
     - [CI/CD (Continuous Integration \& Continuous Deployment)](#cicd-continuous-integration--continuous-deployment)
     - [IaC (Infrastructure as Code)](#iac-infrastructure-as-code)
       - [Containers](#containers)
+      - [Secret Management](#secret-management)
       - [Configuration Management](#configuration-management)
       - [Container Orchestration](#container-orchestration)
+      - [Infrastructure Provisioning](#infrastructure-provisioning)
     - [Server](#server)
     - [Serverless](#serverless)
     - [SaaS (Software as a Service)](#saas-software-as-a-service)
@@ -71,8 +73,9 @@
     - [IaaS (Infrastructure as a Service)](#iaas-infrastructure-as-a-service)
     - [Solution Architecture](#solution-architecture)
     - [Micro Frontends](#micro-frontends)
-  - [Blockchain](#blockchain)
-  - [AI (Artificial Intelligence)](#ai-artificial-intelligence)
+  - [Domains](#domains)
+    - [Blockchain](#blockchain)
+    - [AI (Artificial Intelligence)](#ai-artificial-intelligence)
   - [Reading](#reading)
     - [Blogs](#blogs)
     - [Books](#books)
@@ -87,8 +90,9 @@
 
 #### Enterprise
 
-1. [macOS](https://www.apple.com/macos/)
-2. [Windows](https://www.microsoft.com/en-us/windows)
+1. [Apple - macOS](https://www.apple.com/macos/)
+2. [Google - ChromeOS](https://www.google.com/chromebook/chrome-os/)
+3. [Microsoft - Windows](https://www.microsoft.com/en-us/windows)
 
 #### Linux
 
@@ -98,7 +102,8 @@
 4. [Elementary](https://elementary.io/)
 5. [Kali](https://www.kali.org/)
 6. [Mint](https://linuxmint.com/)
-7. [Ubuntu](https://ubuntu.com/)
+7. [StreamOS](https://store.steampowered.com/steamos/)
+8. [Ubuntu](https://ubuntu.com/)
 
 ### Mobile
 
@@ -116,8 +121,11 @@
 
 ### Programming
 
-1. [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
-2. [Golang](https://go.dev/)
+1. Microsoft
+   1. [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
+2. Google
+   1. [Dart](https://dart.dev)
+   2. [Golang](https://go.dev/)
 3. [Java](https://www.java.com/en/)
 4. [JavaScript](https://www.javascript.com/)
    1. [TypeScript](https://www.typescriptlang.org/)
@@ -151,23 +159,27 @@
 ### Version Control
 
 1. [git](https://git-scm.com/)
+   1. [huksy](https://typicode.github.io/husky/#/)
 2. [subversion](https://subversion.apache.org/)
 
 ### IDE (Integrated Development Environment)
 
-1. [Eclipse](https://www.eclipse.org/)
-2. Text Editor
+1. [Apache - Netbeans](https://netbeans.apache.org/)
+2. [Eclipse](https://www.eclipse.org/)
+3. Text Editor
    1. [Sublime Text](https://www.sublimetext.com/)
-3. Microsoft
+4. Microsoft
    1. [Visual Studio](https://visualstudio.microsoft.com/)
    2. [Visual Studio Code](https://code.visualstudio.com/)
-4. JetBrains
+5. JetBrains
    1. [GoLand](https://www.jetbrains.com/go/)
    2. [IntelliJ IDEA](https://www.jetbrains.com/idea/)
    3. [Pycharm](https://www.jetbrains.com/pycharm/)
    4. [WebStorm](https://www.jetbrains.com/webstorm/)
-5. Apple
+6. Apple
    1. [XCode](https://developer.apple.com/xcode/)
+7. Google
+   1. [Studio](https://developer.android.com/studio)
 
 ### Linters and Formatters
 
@@ -276,14 +288,16 @@
 
 1. [cypress](https://www.cypress.io/)
 2. [enzyme](https://enzymejs.github.io/enzyme/)
-3. [playwright](https://playwright.dev/)
+3. [jest](https://jestjs.io)
+4. [playwright](https://playwright.dev/)
 
 ### Mobile
 
 #### Framework
 
-1. [Ionic](https://ionicframework.com/)
-2. [React Native](https://reactnative.dev/)
+1. [Flutter](https://flutter.dev)
+2. [Ionic](https://ionicframework.com/)
+3. [React Native](https://reactnative.dev/)
 
 ### Desktop
 
@@ -321,11 +335,11 @@
 
 #### Wide Column
 
-1. [Cassandra](https://cassandra.apache.org/)
+1. [Apache - Cassandra](https://cassandra.apache.org/)
 
 #### Document Oriented
 
-1. [CouchDB](https://couchdb.apache.org/)
+1. [Apache - CouchDB](https://couchdb.apache.org/)
 2. [MongoDB](https://www.mongodb.com/)
 
 #### Relational
@@ -341,7 +355,8 @@
 
 #### Search Engine
 
-1. [ElasticSearch](https://www.elastic.co/)
+1. [Apache Solr](https://solr.apache.org/)
+2. [ElasticSearch](https://www.elastic.co/)
 
 #### Multi-Model
 
@@ -356,7 +371,9 @@
 
 ### Message Brokers
 
-1. [RabbitMQ](https://www.rabbitmq.com/)
+1. [Apache - ActiveMQ](https://activemq.apache.org/)
+2. [Apache - Kafka](https://kafka.apache.org/)
+3. [RabbitMQ](https://www.rabbitmq.com/)
 
 ### Authentication
 
@@ -387,6 +404,10 @@
 
 1. [Docker](https://www.docker.com/)
 
+#### Secret Management
+
+1. [Vault](https://vaultproject.io)
+
 #### Configuration Management
 
 1. [Ansible](https://www.ansible.com/)
@@ -395,9 +416,14 @@
 
 1. [Kubernetes](https://kubernetes.io/)
 
+#### Infrastructure Provisioning
+
+1. [Terraform](https://www.terraform.io)
+
 ### Server
 
-1. [Nginx](https://www.nginx.com/)
+1. [Apache - HTTP Server](https://httpd.apache.org/)
+2. [Nginx](https://www.nginx.com/)
 
 ### Serverless
 
@@ -442,7 +468,10 @@
 
 ### IaaS (Infrastructure as a Service)
 
-1. [Digital Ocean](https://www.digitalocean.com/)
+1. [AWS](https://aws.amazon.com/)
+2. [Azure](https://azure.microsoft.com/)
+3. [Digital Ocean](https://www.digitalocean.com/)
+4. [Google Cloud](https://cloud.google.com/)
 
 ### Solution Architecture
 
@@ -452,7 +481,9 @@
 2. [micro-frontends.org](https://micro-frontends.org/)
 3. [microservices](https://microservices.io/)
 
-## Blockchain
+## Domains
+
+### Blockchain
 
 1. [binance](https://www.binance.com/)
 2. [bitcoin](https://www.bitcoin.com/)
@@ -465,9 +496,10 @@
 9. [solana](https://solana.com/)
 10. [tron](https://tron.network/)
 
-## AI (Artificial Intelligence)
+### AI (Artificial Intelligence)
 
 1. [OpenAI](https://openai.com/)
+2. [Tensorflow](https://www.tensorflow.org)
 
 ## Reading
 
