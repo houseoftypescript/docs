@@ -30,7 +30,6 @@
       - [Infrastructure Provisioning](#infrastructure-provisioning)
     - [Server](#server)
     - [Serverless](#serverless)
-    - [PaaS (Platform as a Service)](#paas-platform-as-a-service)
     - [IaaS (Infrastructure as a Service)](#iaas-infrastructure-as-a-service)
     - [Solution Architecture](#solution-architecture)
     - [Micro Frontends](#micro-frontends)
@@ -204,11 +203,6 @@
 
 1. [Netlify](https://www.netlify.com/)
 2. [Vercel](https://vercel.com/)
-
-### PaaS (Platform as a Service)
-
-1. [Heroku](https://www.heroku.com)
-2. [Render](https://render.com/)
 
 ### IaaS (Infrastructure as a Service)
 
