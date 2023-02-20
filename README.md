@@ -6,7 +6,6 @@
     - [CLI (Command Line Interface)](#cli-command-line-interface)
     - [Bundler](#bundler)
     - [Version Control](#version-control)
-    - [IDE (Integrated Development Environment)](#ide-integrated-development-environment)
     - [Linters and Formatters](#linters-and-formatters)
     - [Dependency Management](#dependency-management)
     - [Documentation](#documentation)
@@ -22,7 +21,6 @@
       - [Infrastructure Provisioning](#infrastructure-provisioning)
     - [Server](#server)
     - [Serverless](#serverless)
-    - [IaaS (Infrastructure as a Service)](#iaas-infrastructure-as-a-service)
     - [Solution Architecture](#solution-architecture)
     - [Micro Frontends](#micro-frontends)
   - [Reading](#reading)
@@ -55,25 +53,6 @@
 1. [git](https://git-scm.com/)
    1. [huksy](https://typicode.github.io/husky/#/)
 2. [subversion](https://subversion.apache.org/)
-
-### IDE (Integrated Development Environment)
-
-1. [Apache - Netbeans](https://netbeans.apache.org/)
-2. [Eclipse](https://www.eclipse.org/)
-3. Text Editor
-   1. [Sublime Text](https://www.sublimetext.com/)
-4. Microsoft
-   1. [Visual Studio](https://visualstudio.microsoft.com/)
-   2. [Visual Studio Code](https://code.visualstudio.com/)
-5. JetBrains
-   1. [GoLand](https://www.jetbrains.com/go/)
-   2. [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-   3. [Pycharm](https://www.jetbrains.com/pycharm/)
-   4. [WebStorm](https://www.jetbrains.com/webstorm/)
-6. Apple
-   1. [XCode](https://developer.apple.com/xcode/)
-7. Google
-   1. [Studio](https://developer.android.com/studio)
 
 ### Linters and Formatters
 
@@ -140,13 +119,6 @@
 
 1. [Netlify](https://www.netlify.com/)
 2. [Vercel](https://vercel.com/)
-
-### IaaS (Infrastructure as a Service)
-
-1. [AWS](https://aws.amazon.com/)
-2. [Azure](https://azure.microsoft.com/)
-3. [Digital Ocean](https://www.digitalocean.com/)
-4. [Google Cloud](https://cloud.google.com/)
 
 ### Solution Architecture
 
