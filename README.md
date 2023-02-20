@@ -19,12 +19,9 @@
     - [Dependency Management](#dependency-management)
     - [Documentation](#documentation)
   - [Back-end](#back-end)
-    - [Framework](#framework)
-    - [Message Brokers](#message-brokers)
     - [Authentication](#authentication)
   - [DevOps (Development and Operations)](#devops-development-and-operations)
     - [Code Quality](#code-quality)
-    - [CI/CD (Continuous Integration \& Continuous Deployment)](#cicd-continuous-integration--continuous-deployment)
     - [IaC (Infrastructure as Code)](#iac-infrastructure-as-code)
       - [Containers](#containers)
       - [Secret Management](#secret-management)
@@ -33,20 +30,10 @@
       - [Infrastructure Provisioning](#infrastructure-provisioning)
     - [Server](#server)
     - [Serverless](#serverless)
-    - [SaaS (Software as a Service)](#saas-software-as-a-service)
-      - [Version Control System](#version-control-system)
-      - [Diagrams](#diagrams)
-      - [Authentication Service](#authentication-service)
-      - [Database Service](#database-service)
-      - [Mailing](#mailing)
-      - [Payment](#payment)
     - [PaaS (Platform as a Service)](#paas-platform-as-a-service)
     - [IaaS (Infrastructure as a Service)](#iaas-infrastructure-as-a-service)
     - [Solution Architecture](#solution-architecture)
     - [Micro Frontends](#micro-frontends)
-  - [Domains](#domains)
-    - [Blockchain](#blockchain)
-    - [AI (Artificial Intelligence)](#ai-artificial-intelligence)
   - [Reading](#reading)
     - [Blogs](#blogs)
     - [Books](#books)
@@ -172,31 +159,6 @@
 
 ## Back-end
 
-### Framework
-
-1. GraphQL
-   1. [Apollo](https://www.apollographql.com/)
-2. Java
-   1. [Spring](https://spring.io/)
-      1. [Spring Boot](https://spring.io/projects/spring-boot)
-3. JavaScript - [Node.js](https://nodejs.org/en/)
-   1. [express.js](https://expressjs.com/)
-   2. [fastify](https://www.fastify.io/)
-   3. [hapi](https://hapi.dev/)
-   4. [nest.js](https://nestjs.com/)
-4. PHP
-   1. [CakePHP](https://cakephp.org/)
-   2. [Laravel](https://laravel.com/)
-5. Python
-   1. [Django](https://www.djangoproject.com/)
-   2. [Flask](https://flask.palletsprojects.com/en/2.2.x/)
-
-### Message Brokers
-
-1. [Apache - ActiveMQ](https://activemq.apache.org/)
-2. [Apache - Kafka](https://kafka.apache.org/)
-3. [RabbitMQ](https://www.rabbitmq.com/)
-
 ### Authentication
 
 1. [JWT](https://jwt.io/)
@@ -210,15 +172,6 @@
    1. [SonarLint](https://www.sonarsource.com/products/sonarlint/)
    2. [SonarQube](https://www.sonarsource.com/products/sonarqube/)
    3. [SonarCloud](https://www.sonarsource.com/products/sonarcloud/)
-
-### CI/CD (Continuous Integration & Continuous Deployment)
-
-1. [BitBucket Pipelines](https://bitbucket.org/product/features/pipelines)
-2. [Circle CI](https://circleci.com/)
-3. [GitHub Actions](https://github.com/features/actions)
-4. [GitLab CI](https://docs.gitlab.com/ee/ci/)
-5. [Jenkins](https://www.jenkins.io/)
-6. [Travis CI](https://www.travis-ci.com/)
 
 ### IaC (Infrastructure as Code)
 
@@ -252,37 +205,6 @@
 1. [Netlify](https://www.netlify.com/)
 2. [Vercel](https://vercel.com/)
 
-### SaaS (Software as a Service)
-
-#### Version Control System
-
-1. [BitBucket](https://bitbucket.org/)
-2. [GitHub](https://github.com)
-3. [GitLab](https://about.gitlab.com/)
-
-#### Diagrams
-
-1. [Diagrams](https://www.diagrams.net/)
-2. [Sequence Diagram](https://sequencediagram.org/)
-
-#### Authentication Service
-
-1. [Auth0](https://auth0.com/)
-2. [KeyCloak](https://www.keycloak.org/)
-
-#### Database Service
-
-1. [MongoDB Atlas](https://www.mongodb.com/atlas)
-
-#### Mailing
-
-1. [Mailchimp](https://mailchimp.com/)
-
-#### Payment
-
-1. [PayPal](https://www.paypal.com/)
-2. [Stripe](https://stripe.com/)
-
 ### PaaS (Platform as a Service)
 
 1. [Heroku](https://www.heroku.com)
@@ -302,26 +224,6 @@
 1. [microfrontends.com](https://microfrontends.com/)
 2. [micro-frontends.org](https://micro-frontends.org/)
 3. [microservices](https://microservices.io/)
-
-## Domains
-
-### Blockchain
-
-1. [binance](https://www.binance.com/)
-2. [bitcoin](https://www.bitcoin.com/)
-3. [cardano](https://cardano.org/)
-4. [ethereum](https://ethereum.org/)
-5. [hedera](https://hedera.com/)
-6. [monero](https://www.getmonero.org/)
-7. [near](https://near.org/)
-8. [polkadot](https://polkadot.network/)
-9. [solana](https://solana.com/)
-10. [tron](https://tron.network/)
-
-### AI (Artificial Intelligence)
-
-1. [OpenAI](https://openai.com/)
-2. [Tensorflow](https://www.tensorflow.org)
 
 ## Reading
 
